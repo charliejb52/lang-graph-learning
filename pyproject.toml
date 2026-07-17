@@ -3,6 +3,8 @@ name = "lang-graph"
 version = "0.1.0"
 requires-python = ">=3.10.0, <4.0.0"
 dependencies = [
+    "duckduckgo-search>=8.1.1",
+    "langchain-community>=0.4.2",
     "langchain-openai>=1.3.5",
     "langgraph>=1.2.9",
     "python-dotenv>=1.2.2",
